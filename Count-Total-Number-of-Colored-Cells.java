@@ -1,9 +1,6 @@
 class Solution {
     public long coloredCells(int n) {
-        long total = 1;
-        for (int i = 1; i < n; i++) {
-            total += 4 * i;
-        }
-        return total;
+     return (long)Math.pow(n,2) + (long)Math.pow(n-1,2);
     }
+ 
 }
